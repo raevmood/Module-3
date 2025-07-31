@@ -1,0 +1,8 @@
+transformers
+langchain
+python-dotenv
+numpy
+pandas
+jupyter
+notebook
+google-genai
