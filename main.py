@@ -1,12 +1,11 @@
 
-from sentence_transformers import SentenceTransformer, util
+from google import genai
 
-model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+client = genai.Client()
 
-sentence_a = "How do I make pancakes?"
-sentence_b = "What is the process to cook pancakes?"
+response = client.models.generate_content(
+    model="gemini-2.5-flash",
+    contents="Explain how AI works in a few words",
+)
 
-
-embeddings = model.encode([sentence_a, sentence_b])
-similarity = util.cos_sim(embeddings[0], embeddings[1])
-print("Similarity score:", similarity)
+print(response.text)
