@@ -1,0 +1,15 @@
+{
+  "name": "Andrew Brown",
+  "bio": "I teach cloud and Generative AI!",
+  "avatarUrl": "https://placehold.co/96x96",
+  "links": [
+    {
+      "title": "ExamPro",
+      "url": "https://www.exampro.co"
+    },
+    {
+      "title": "FreeCodeCamp",
+      "url": "https://www.freecodecamp.org"
+    }
+  ]
+}
