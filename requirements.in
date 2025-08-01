@@ -6,3 +6,7 @@ pandas
 jupyter
 notebook
 google-genai
+sentence-transformers
+pinecone
+google-search-results
+beautifulsoup4
